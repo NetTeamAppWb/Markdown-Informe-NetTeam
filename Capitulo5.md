@@ -70,7 +70,7 @@ Para el desarrollo del diagrama del diseño de base de datos se ha empleado Vert
 Se ha creado una organización en Github con los miembros del grupo y un repositorio para el landing page.
 
 * Organización: https://github.com/NetTeamAppWb     
-* Repositorio landing page: https://github.com/NetTeamAppWb/Landing_Page-master
+* Repositorio landing page: https://github.com/NetTeamAppWb/TheLandingPageNetTeam
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
