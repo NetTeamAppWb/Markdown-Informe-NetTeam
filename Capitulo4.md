@@ -265,6 +265,12 @@ En este diagrama de Software Architecture Components Diagrams se presenta de for
 
 # 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+
+<div align='center'>
+<img src="https://cdn.discordapp.com/attachments/891176117204054071/1156303949083709653/image.png?ex=65147b78&is=651329f8&hm=29e7ce72f430ad914a91a3ea694c8f78d55bb942bd777294bd5fbf41eb9d1d8f&" width="750" height="350">
+</div>
+Link del [diagrama](https://lucid.app/lucidchart/746a28bd-1f42-4565-81cf-2a86911077ea/edit?viewport_loc=677%2C338%2C3400%2C1645%2CHWEp-vi-RSFO&invitationId=inv_3ab95094-ca4e-4133-804e-47e70973e471)
+
 ### 4.7.2. Class Dictionary
 
 |Class|Description|
