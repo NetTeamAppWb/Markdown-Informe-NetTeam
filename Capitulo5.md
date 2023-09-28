@@ -74,16 +74,54 @@ Se ha creado una organización en Github con los miembros del grupo y un reposit
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para las convenciones o estilos de programación, seguiremos convenciones básicas de camelCase y UpperCamelCase según el caso. Además, la guía de estilo de Google para programar en HTML y CSS (Google HTML/CSS Style Guide). 
+**Nomenclatura General**
+ Los nombres de las variables, los objetos, los elementos y las funciones empleadas se les darán términos en inglés relevantes y pueden describir lo que representan. No se utilizan mayúsculas porque según W3Schools (s.f.) estas letras se ven mal mezcladas con minúsculas, además el uso privilegiado de minúsculas hace que el código sea más legible.
 
-```
-En cuanto a las convenciones para el control de versiones, utilizaremos conventional commits tanto para la creación de ramas (aplicando <type>/<title>) como para la creación de commits (<type>(optional scope): <description>). Como, por ejemplo:
-Rama: feat/main-component
-Commit -> feat(ui): added main component template
+**Sangria**
+Al usar HTML, CSS y/o JavaScript, se aplicará un espacio antes de cada línea dentro del bloque. Este espacio debe ser dos, y según W3Schools (s.f.) no se debe utilizar la tecla "tabulador".
+Ejemplo de nomenclatura estándar de la sangría en HTML según W3Schools (s.f.):
+*<cuerpo>
+*  <cp>
+*    <cr>Usuario</cr>
+*    <cr>Cuenta</cr>
+*  </cp>
+*</cuerpo>
+Ejemplo de nomenclatura estándar de la sangría en CSS según W3Schools (s.f.):
+ html {
+  font: #fff;
+  color: #404;
+}
+Ejemplo de nomenclatura estándar de la sangría en JavaScript según W3Schools (s.f.):
 
-```
+ function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
 
-Con respecto a la creación de ramas, se utilizarán feature branches siguiendo el modelo de Git Flow, con la nomenclatura mencionada previamente. Nuestra rama principal será la rama main, la cual contendrá nuestra versión de la aplicación que se encuentra en producción. Todas las feature branches y hotfixes se realizarán a esta rama, la cual será desplegada automáticamente gracias a la integración con Cloudflare Pages.
+**Html**
+Llamado así por el acrónimo del nombre en inglés HyperText Markup Language. HTML es un lenguaje de marcado que define la estructura de las páginas web. Además, tiene funciones que pueden determinar el comportamiento de diferentes partes del contenido de la página, como cambiar el tamaño del texto, aplicar cursiva, etc. Usaremos HTML5, y las características y pautas a seguir en el uso de este lenguaje son las siguientes:
+
+* Declaración de tipos de archivos: El tipo de documento debe declararse en la primera línea de código. Según Google (s.f.), HTML5 es la mejor sintaxis para todos los documentos HTML, indicando que solo necesita copiar lo siguiente:
+
+           <!DOCTYPE html>
+
+* Multimedia Fallback: Garantice un acceso alternativo a los objetos multimedia en caso de que falle la carga. Además, según W3Schools (s.f.), se recomienda agregar las dimensiones del elemento, ya que de esta manera el navegador ahorra espacio que será utilizado antes de comenzar a cargar.
+Ejemplo: <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
+ 
+
+**CSS**
+Nombrado así por el acrónimo del nombre en inglés Cascading Style Sheets. CSS es un lenguaje de marcado enfocado en definir y mejorar la presentación de documentos basados en HTML. Las pautas a seguir al usar CSS son las siguientes:
+* Shorthand Properties: Debe declarar los campos de elementos en la menor cantidad de líneas posible utilizando abreviaturas de propiedad. Según Google (s.f.), esto mejora la eficiencia del código y lo hace más fácil de entender. Nuevamente, debemos evitar colocar unidades después del valor cero.
+
+* Declaration: Como la mayoría de los lenguajes de programación, debe colocar un punto y coma después de cada declaración. Según Google (s. f.). Esta característica ayuda a que el código sea más consistente.
+
+* CSS Quotation Marks: No se deben usar comillas dobles (""), solo se permiten comillas simples ('') para uso exclusivo de selectores de atributos y valores de atributos.
+
+**Javascript**
+Es un lenguaje de programación que dicta exactamente lo que tiene que hacer el navegador, el orden de las tareas y el número de veces que debe realizarlas. Los signos de usar JavaScript en nuestro proyecto son los siguientes:
+
+* Spaces around operators: Se debe colocar un espacio alrededor de cada operador matemático ingresado en el código. Esto también funciona con comas.
+
+* Simple Statement´s End: Una declaración simple debe terminar con un punto y coma, como es el caso en muchos otros lenguajes de programación.
 
 ### 5.1.4. Software Deployment Configuration
 
