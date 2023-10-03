@@ -237,6 +237,7 @@ En el caso de los emprendedores se podrán actualizar un menú electrónico y lo
 <br>
 
 # 4.6. Domain-Driven Software Architecture
+aaaaaaaaaa
 ### 4.6.1. Software Architecture Context Diagram
 
 A continuación se puede visualizar el Software Architecture Context Diagram que representa un panorama general de la comunicación entre nuestro segmento objetivo y la aplicación.
